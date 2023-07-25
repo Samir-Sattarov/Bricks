@@ -1,0 +1,13 @@
+name: default_feature
+description: My Default Clean Architecture feature
+version: 1.0.0+1
+
+environment:
+  mason: ">=0.1.0-dev.41 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: New feature
+    default: new_feature
+    prompt: What is new feature name?
